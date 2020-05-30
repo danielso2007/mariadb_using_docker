@@ -1,0 +1,26 @@
+version: "3.7"
+services:
+  db:
+    image: "mariadb:10.5.3-bionic"
+    container_name: "mariadb"
+    restart: always
+    environment:
+      - "MYSQL_ROOT_PASSWORD=root"
+    ports:
+      - "3306:3306"
+    volumes:
+      - "mariadbconf:/etc/mysql/conf.d"
+      - "mariadbdblogs:/var/log"
+      - "mariadblib:/var/lib/mysql"
+      - "./data:/opt/dump"
+    networks:
+      - mariadb-network
+
+volumes:
+  mariadbconf:
+  mariadbdblogs:
+  mariadblib:
+
+networks:
+  mariadb-network:
+    driver: bridge
