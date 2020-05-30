@@ -1,10 +1,10 @@
-# Mysql with Adminer using docker.
+# MariaDB using docker.
 
-Docker-compose project creating 2 containers. One container with the Mysql database and the other with Adminer.
+Docker-compose project creating 1 containers. One container with the MariaDB database.
 
 The docker-compose file contains the container information and can be modified freely. You can change the server's root password and ports.
 
-The main names of the containers are `mysql` for Mysql and` adminer` for Adminer. As a result, all the scripts took these container names into account.
+The main names of the containers are `MariaDB` for MariaDB. As a result, all the scripts took these container names into account.
 
 # Starting the project
 
@@ -14,9 +14,9 @@ Have the docker and docker-compose installed on your machine.
 
 This directory contains some scripts for managing the containers.
 
-`logs.sh`: Displays the Mysql container log.
+`logs.sh`: Displays the MariaDB container log.
 
-`start.sh`: Start the Mysql and Adminer containers.
+`start.sh`: Start the MariaDB and Adminer containers.
 
 `stop.sh`: Stop containers.
 
