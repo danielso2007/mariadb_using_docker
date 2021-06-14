@@ -23,7 +23,7 @@ docker-compose ps
 echo -e "${YELLOW}Removendo container...${NC}"
 docker-compose rm -f
 echo -e "${YELLOW}Removendo volumes ...${NC}"
-docker volume rm mariadb_mariadbconf mariadb_mariadbdblogs mariadb_mariadblib
-docker network rm mariadb_mariadb-network
+docker volume rm mariadb_using_docker_mariadbconf mariadb_using_docker_mariadbdblogs mariadb_using_docker_mariadblib
+docker network rm mariadb_using_docker_mariadb-network
 docker volume ls
 docker network ls
