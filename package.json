@@ -1,6 +1,6 @@
 {
   "name": "mariadb_using_docker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "MariaDB using docker.",
   "scripts": {
     "release": "standard-version"
