@@ -1,5 +1,8 @@
 # MariaDB using docker.
 
+MariaDB port: 3300
+phpMyAdmin port: 8000
+
 Docker-compose project creating 1 containers. One container with the MariaDB database.
 
 The docker-compose file contains the container information and can be modified freely. You can change the server's root password and ports.
