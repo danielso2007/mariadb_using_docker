@@ -18,10 +18,10 @@ WHITE='\033[1;37m'
 NC='\033[0m' # No Color
 echo -e "${YELLOW}Parando container...${NC}"
 cd ..
-docker-compose stop
-docker-compose ps
+docker compose stop
+docker compose ps
 echo -e "${YELLOW}Removendo container...${NC}"
-docker-compose rm -f
+docker compose rm -f
 echo -e "${YELLOW}Removendo volumes ...${NC}"
 docker volume rm mariadb_using_docker_mariadbconf mariadb_using_docker_mariadbdblogs mariadb_using_docker_mariadblib
 docker network rm mariadb_using_docker_mariadb-network

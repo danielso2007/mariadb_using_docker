@@ -18,7 +18,7 @@ WHITE='\033[1;37m'
 NC='\033[0m' # No Color
 cd ..
 echo -e "${YELLOW}Parando container...${NC}"
-docker-compose stop
+docker compose stop
 echo -e "${YELLOW}Removendo container...${NC}"
-docker-compose rm -f
-docker-compose ps
+docker compose rm -f
+docker compose ps

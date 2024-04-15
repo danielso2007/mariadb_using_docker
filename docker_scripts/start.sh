@@ -18,5 +18,5 @@ WHITE='\033[1;37m'
 NC='\033[0m' # No Color
 cd ..
 echo -e "${YELLOW}Iniciando container...${NC}"
-docker-compose up -d
-docker-compose ps
+docker compose up -d
+docker compose ps

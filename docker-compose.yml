@@ -1,13 +1,12 @@
-version: "3.7"
 services:
   db:
-    image: "mariadb:10.6.1-focal"
+    image: "mariadb:11.4.1-rc-jammy"
     container_name: "mariadb"
     restart: always
     environment:
       - "MYSQL_ROOT_PASSWORD=root"
     ports:
-      - "3300:3306"
+      - "3306:3306"
     volumes:
       - "mariadbconf:/etc/mysql/conf.d"
       - "mariadbdblogs:/var/log"

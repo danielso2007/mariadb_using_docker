@@ -1,6 +1,6 @@
 {
   "name": "mariadb_using_docker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MariaDB using docker.",
   "scripts": {
     "release": "standard-version"
@@ -18,6 +18,6 @@
   "author": "Daniel Oliveira",
   "license": "ISC",
   "dependencies": {
-    "standard-version": "^8.0.0"
+    "standard-version": "^9.5.0"
   }
 }
