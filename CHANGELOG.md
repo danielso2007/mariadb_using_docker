@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/danielso2007/mariadb_using_docker/compare/v1.0.0...v1.1.0) (2024-04-15)
+
+
+### Features
+
+* ajuste para usar o novo docker compose ([4e051ad](https://github.com/danielso2007/mariadb_using_docker/commit/4e051ad5cf48e905018594a3eb0ee42ee7673356))
+
 ## 1.0.0 (2021-06-14)
 
 
